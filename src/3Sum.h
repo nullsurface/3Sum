@@ -1,5 +1,5 @@
-#ifndef 3SUM_H
-#define 3SUM_H
+#ifndef _3SUM_H
+#define _3SUM_H
 
 int** threeSum(int*, int, int*, int**);
 

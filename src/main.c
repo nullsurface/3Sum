@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include "3Sum.h"
 
 int main() {
@@ -16,6 +17,15 @@ int main() {
     nums[5] = -4;
 
     output = threeSum(nums, numsSize, returnSize, returnColumSizes);
+    
+    for (int i = 0; i < *returnSize; i++) {
+        for (int j = 0; j < (*returnColumSizes)[i]; j++) {
+            printf("%d ", output[i][j]);
+        }
+        printf("\n");
+    }
+
+    printf("End Jawn\n");
 
     return 0;
 }
