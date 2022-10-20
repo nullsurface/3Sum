@@ -5,6 +5,9 @@
 int** threeSum(int*, int, int*, int**);
 
 // This returns if the perticular triplet is unique in the return set
-int isUnique(int**, int*, int, int ,int);
+int isUnique(int**, int*, int*);
+
+// Sorts a triple from least to greatest
+void threeSort(int*);
 #endif
 
