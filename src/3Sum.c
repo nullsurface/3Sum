@@ -60,5 +60,4 @@ void threeSort(int* triple) {
         }
 
         i++;
-    }
-}
+    } }
